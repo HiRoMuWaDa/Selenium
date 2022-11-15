@@ -13,8 +13,8 @@ public class ex02 {
 	public static void main(String[] args) {
 		String rakusLoginUrl = "https://rakuplus.jp/wp-login.php?redirect_to=https%3A%2F%2Frakuplus.jp%2F&reauth=1";
 		String memberUrl = "https://rakuplus.jp/archives/11203";
-		String userName = "hiromu.wada@rakus-partners.co.jp";
-		String pass = "hiromu.wada@rakus-partners.co.jp";
+		String userName = "";
+		String pass = "";
 		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
